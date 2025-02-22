@@ -1,0 +1,1 @@
+This repository contains a C++ code example demonstrating a common error when removing elements from a vector during iteration.  The `bug.cpp` file shows the erroneous code, while `bugSolution.cpp` presents the corrected version.  The problem arises from invalidating iterators when using `vec.erase()`. The solution demonstrates safe ways to modify vectors while iterating.
